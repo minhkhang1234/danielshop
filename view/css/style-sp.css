@@ -1,0 +1,1395 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: auto; */
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+}
+
+body{
+    background-color:#FAF9F8;
+       
+}
+
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+
+
+
+/* header o day */
+header{
+  position: relative;
+ 
+}
+
+.top-left ul{
+    list-style-type: none;
+    display: inline-flex;
+    
+    position: absolute;
+    left:120px;
+}
+
+.top-left ul li{
+    margin-right: 15px;
+}
+
+.top-left ul li a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.top-right{
+  position: relative;
+
+}
+
+.top-right ul{
+    display: inline-flex;
+    list-style-type: none;
+    position: absolute;
+    right: 5%;
+}
+
+.top-right ul li{
+    margin-right: 15px;
+}
+
+.top-right ul li a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.top-right ul li a:hover,
+.top-left ul li a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+.logo img{
+    display: block;
+    margin: 0 auto;
+
+    width: 188px;
+    height: 187px;
+
+    position: relative;
+    
+}
+
+nav{
+  height: 37px;
+  margin: 0 auto;
+
+}
+
+nav ul{
+    position: a;
+    display: block;
+    text-align: center;
+}
+
+nav ul li{
+    margin: 0 14px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+nav ul li a:hover{
+   text-decoration: underline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    line-height: 37px;
+    color: #222222;
+    font-size: 1.3vw;
+}
+
+
+nav .search-button{
+    position: absolute;
+    right: 14%;   
+    top: 26%;
+
+    
+}
+
+nav .search-button i{
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    font-size: 100%px;
+}
+
+nav .search-button input{
+    border-top: none;
+    border-right:none;
+    border-left:none ;
+    background-color:#FAF9F8;
+    font-size: 0.9vw;
+    /* line-height: 10px; */
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* end header */
+/* content */
+
+
+.container .content1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container .content1 a{
+    color: #626060;
+    font-size: 0.7vw;
+}
+
+/* .container .content2{
+    background-color: #546780;
+    height: 130px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.container .content2 .title-content1{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.5vw;
+    letter-spacing: 0.5px;
+    text-shadow: black 5px 5px 5px;
+
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+.container .content2 .title-content2{
+    color: #FFFFFF;
+    font-weight: 1000;
+    font-size: 2vw;
+    font-variant: initial;
+    letter-spacing: 0.5px;
+    text-shadow: black 5px 5px 5px;
+
+
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
+
+.container .content2 .title-content3{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.container  .content2 i{
+    font-size: 4vw;
+    color: #ffffff;
+    text-shadow: black 5px 5px 5px;
+
+    position: absolute;
+    right: 75px;
+    top: 40px;
+
+} */
+
+/* .container .content2{
+
+}
+
+.container .content2 .box-banner img{
+    width: 100%;
+
+    display: block;
+
+    position: relative;
+
+   
+} */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+
+  /* Caption text */
+  .text {
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 43%;
+
+    bottom: 40px;
+    margin: 0 auto;
+
+    padding: 8px 12px;
+    background-color: #222222;
+    width: 15%;
+    
+  }
+
+  .text a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.7vw;
+    font-weight:600;
+    
+  }
+
+  .text:hover{
+    background-color: #626060;
+  }
+
+  .text a:hover{
+    background-color: #626060;
+    color: rebeccapurple;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .content3{
+
+  }
+
+  .content3 h1{
+    text-decoration: underline;
+    font-size: 1.1vw;
+    position: relative;
+    margin-bottom: 20px;
+
+    text-align: left;
+  }
+
+  .content3 .hinh-danhmuc ul{
+    list-style-type: none;
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+  }
+
+  .content3 .hinh-danhmuc ul li {
+    background-color:white;
+    text-align: center;
+    float: left;
+    border-radius: 50%;
+    /* margin: 0 5px; */
+    width: 100%;
+  }
+
+ .content3 .hinh-danhmuc ul li a img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+  }
+
+  .content3 .title-danhmuc ul{
+    display: inline-flex;
+    list-style-type: none;
+    position: relative;
+    left: 1%;
+  }
+
+  .content3 .title-danhmuc ul li{
+   text-align: center;
+    margin: 0 24%;
+  }
+
+  .content3 .title-danhmuc ul li a{
+    text-decoration: none;
+    color: #222222;
+   }
+
+   .content3 .title-danhmuc ul li a:hover{
+    text-decoration: underline;
+    
+   }
+
+   .content4 img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+   }
+
+ 
+
+   /* phần tạp chí */
+
+ .tapchi{
+  position: relative;
+  width: 100%;
+  height:500px;
+  padding-top: 10px;
+  background-color: #BACEE9;
+
+  text-align: center;
+  margin-top: 80px;
+ }
+
+  .column-tapchi{
+    width: 20%;
+    height:70%;
+    background-color: #f2f2f2;
+    float: left;
+
+    position: relative;
+    left: 20%;
+
+    margin: 0 10px;
+
+    margin-top: 30px;
+    
+  
+  }
+
+  .tapchi h1{
+    font-variant: small-caps;
+  }
+
+  .column-tapchi img{
+    width: 100%;
+    position: absolute  ;
+    left: 0%;
+  }
+
+  .content-tapchi1{
+    position: absolute;
+
+    top: 60%;
+    left: 45%;
+    color: gray;
+    font-size: small;
+  }
+
+  .content-tapchi2{
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: 845;
+    top: 65%;
+    left: 15%;
+  }
+
+  .content-tapchi3{
+    position: absolute;
+    bottom: 1%;
+    left: 35%;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .content-tapchi3:Hover{
+   color: royalblue;
+  }
+
+
+
+   
+
+  
+
+
+
+  /* đây lầ phần footer */
+
+   footer{
+    width: 100%;
+    background-color: #5B638A;
+    /* min-height:auto; */
+    height: 540px;
+    position: relative;
+    
+    overflow:auto;
+    
+    /* float: none; */
+    font-size: 1.2;
+
+
+
+
+    
+   }
+
+
+   .main-text{
+    font-weight: bolder;
+    font-size: 1.3vw;
+    color: #000000;
+    
+
+   }
+
+   .footer-home{    
+    position: absolute;
+    left: 30%;
+   
+   }
+
+   .footer-home ul li{
+    margin: 10px 0px;
+    list-style-type: none;
+   }
+
+   .footer-home ul li a{
+   text-decoration: none;
+   color: #000000;
+   font-weight: 600;
+   }
+
+   .footer-shop{    
+    position: absolute;
+    left: 40%;
+    
+   }
+
+   .footer-shop ul li{
+    margin: 10px 0px;
+    list-style-type: none;
+   }
+
+   .footer-shop ul li a{
+   text-decoration: none;
+   color: #000000;
+   font-weight: 600;
+   }
+
+
+   .footer-phanloai{    
+    position: absolute;
+    left: 50%;
+   }
+
+   .footer-phanloai ul li{
+    margin: 10px 0px;
+    list-style-type: none;
+   }
+
+   .footer-phanloai ul li a{
+   text-decoration: none;
+   color: #000000;
+   font-weight: 600;
+   }
+
+   
+.footer-diachi{
+    position: absolute;
+    left: 60%;
+}
+
+
+.footer-diachi ul li{
+    margin: 10px 0px;
+    list-style-type: none;
+   }
+
+   .footer-diachi ul li a{
+   text-decoration: none;
+   color: #000000;
+   font-weight: 600;
+   }
+
+   /* .footer-hiden{
+    position:relative;
+    width: 100%;
+    height: 50px;
+   } */
+  footer .sologan{
+  position: relative;
+  top: 40%;
+
+  text-align: center;
+
+   }
+
+   .footer-iccon{
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+    top: 82%;
+   }
+   .footer-iccon ul{
+    display: inline-flex;
+    position: relative;
+   
+   }
+
+   .footer-iccon ul li{
+    list-style-type: none;
+    margin: 0 15px;
+   }
+
+   .footer-iccon ul li a{
+    text-decoration: none;
+    color: #000000;
+   }
+
+   .footer-logo{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 10%;
+    height: auto;
+    border: 1px solid #f2f2f2;
+    margin-top: 10px;
+    position: relative;
+    top: 36%;
+   }
+
+   .footer-logo img{
+    width: 100%;
+   }
+
+   .copyright{
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: #FFFFFF 0px 0px 5px;
+
+    font-size: 1.1vw;
+    position: relative;
+    top:35%;
+    margin-top: 10px;
+   }
+
+
+
+   /* form login */
+
+   /* .form-login{
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 100%;
+    height: 600px;
+    background-color: #FFFFFF;
+
+    display: block;
+    text-align: center;
+   } */
+
+
+.modal{
+  position: fixed;
+  z-index: 1;
+  left: 20%;
+  top: 10%;
+  overflow: auto;
+
+  width: 1000px;
+  height: 600px ;
+  overflow: auto;
+  background-color: #5B638A;
+
+  display: none;
+  
+
+} 
+
+
+.container-dangnhap h1{
+  text-align: center;
+  position: relative;
+  top: 5%;
+
+  color: #5B638A;
+  font-weight: bold;
+}
+.logo-form{
+  float: left;
+  width: 30%;
+}
+
+.modal .logo-form img{
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 15px;
+  
+  position: relative;
+  margin-top: 50%;
+  left:10%;
+
+  
+}
+
+.container-dangnhap{
+  width: 70%;
+  height: 100%;
+  float: right;
+  background-color: #ffffff;
+
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  
+}
+
+.container-dangnhap .close {
+  position: absolute;
+  right:0;
+  top: -20px;
+  text-decoration: none;
+  color: black;
+  font-size: 4vw;
+}
+
+.container-dangnhap .close:hover{
+  color: tomato;
+}
+
+.container-dangnhap form{
+  margin: 5px auto;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 25%;
+}
+
+.container-dangnhap input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-bottom: 2px solid #5B638A ;
+  border-right: none;
+  border-left:none ;
+  border-top:none ;
+}
+
+button {
+  background-color: #5B638A;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.footer-iccon-login{
+  text-align: center;  
+}
+
+.footer-iccon-login ul li{
+  list-style-type: none;
+  display: inline-flex;
+  margin: 20px;
+}
+
+.footer-iccon-login ul li a{
+ text-decoration: none;
+ color: #5B638A;
+ font-size: 2vw;
+}
+
+
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+
+/* form dang ky */
+
+
+.modal{
+  position: fixed;
+  z-index: 1;
+  left: 20%;
+  top: 8%;
+  overflow: auto;
+
+  width: 1000px;
+  height: 650px ;
+  overflow: auto;
+  background-color: #5B638A;
+
+  display: none;
+  
+
+} 
+
+
+.container-dangky h1{
+  text-align: center;
+  position: relative;
+  margin-bottom: 2%;
+
+  color: #5B638A;
+  font-weight: bold;
+}
+.logo-form{
+  float: left;
+  width: 30%;
+}
+
+.modal .logo-form img{
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 15px;
+  
+  position: relative;
+  margin-top: 70%;
+  left:10%;
+
+  
+}
+
+.container-dangky{
+  width: 70%;
+  height: 100%;
+  float: right;
+  background-color: #ffffff;
+
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  
+}
+
+.container-dangky .container{
+  position: relative;
+  top: -80px;
+}
+
+.container-dangky .close {
+  position: absolute;
+  right:0;
+  top: -20px;
+  text-decoration: none;
+  color: black;
+  font-size: 4vw;
+}
+
+.container-dangky .close:hover{
+  color: tomato;
+}
+
+.container-dangky form .container p{
+  color: #626060;
+}
+
+.container-dangky form{
+  margin: 5px auto;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 25%;
+}
+
+.container-dangky input[type=text], input[type=password] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border-bottom: 2px solid #5B638A ;
+  border-right: none;
+  border-left:none ;
+  border-top:none ;
+}
+
+.container-dangky button {
+  background-color: #5B638A;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.footer-iccon-login{
+  text-align: center;  
+}
+
+.footer-iccon-login ul li{
+  list-style-type: none;
+  display: inline-flex;
+  margin: 10px;
+}
+
+.footer-iccon-login ul li a{
+ text-decoration: none;
+ color: #5B638A;
+ font-size: 2vw;
+}
+
+
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+
+/* aside */
+main{
+  position: relative;
+  width: 100%;
+  overflow:auto;
+  
+}
+
+aside{
+  width: 15%;
+  min-height: auto;
+  float: left;
+  background-color: #f2f2f2;
+ 
+}
+
+aside ul{
+  margin:8px 40px;
+  list-style-type: none;
+  
+  margin-bottom: 10px;
+}
+
+aside ul li{
+  margin: 5px 0;
+}
+
+aside ul li a{
+  color: #000000;
+  font-size:1vw;
+  text-decoration: none;
+}
+
+aside ul li a:hover{
+  color: #000000;
+
+  text-decoration: underline;
+}
+
+aside ul li a strong:hover{
+  color: red;
+
+  text-decoration: underline;
+} 
+
+/* article */
+
+ article{
+  width: 85%;
+  float: right;
+  
+}
+
+article h1{
+ margin-left:20px;
+}
+
+.box-product{
+  width: 22%;
+  height: 25%;
+  background-color: #FFFFFF;
+  float: left;
+  
+  margin:2% 1.5%;
+}
+
+.box-product img{
+  width: 100%;
+}
+
+article .box-product .name-product{
+  color: #040404;
+  font-weight: bolder;
+  font-size: 0.8vw;
+
+  margin-bottom: 20px;
+}
+
+article .box-product p a{
+ text-decoration: none;
+ color: #626060;
+
+
+}
+  main{
+    overflow: hidden;
+  }
+/* chi  tiet */
+
+main .ct-left{
+  width: 40%;
+  height: 60%;
+
+  float: left;
+}
+
+main .ct-left .ct-row {
+  position: relative;
+  width:70%;
+  min-height: 340px;
+ 
+
+  margin: 50px auto;
+}
+
+main .ct-left .ct-row1{
+  width: 14%;
+  height:12%;
+  left: 15%;
+  top: -20%;
+  position: relative;
+  float: left;
+  margin: 10px;
+}
+
+
+main .ct-left .ct-row1 img{
+  width: 100%;
+  height:10%;
+  position: relative;
+}
+
+main .ct-left .ct-row1 img:hover{
+ border: 2px solid black;
+}
+
+
+
+.ct-left .ct-row img{
+  position: absolute;
+  width:100%;
+  height: auto;
+ 
+}
+
+.ct-right{
+width: 60%;
+height: 600px;
+}
+
+.ct-right .gotocart{
+  width: 100%;
+  height: 512px;
+
+}
+
+.ct-right .name-product{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.6vw;
+  position: relative;
+}
+
+.ct-right .detail-product{
+  text-align: center;
+  font-size:1vw;
+  position: relative;
+  top: -2%;
+  text-decoration: none;
+  color: #222222;
+}
+
+.ct-right input[type='submit']{
+  text-align: center;
+  position: relative;
+  left:30%;
+  font-size: 1.5vw;
+  padding:20px;
+  width: 40%;
+  background-color: #000000;
+  color: #FAF9F8;
+  margin-top: 2%;
+}
+
+.ct-right .main-detail{
+  margin-top: 5%;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.ct-right .content-product{
+  width: 50%;
+  padding: 0 40px;  
+  
+}
+
+.main-ct{
+
+  width: 100%;
+  height:800px;
+  margin-bottom: 20px;
+ 
+}
+
+.boxct-product{
+  width: 40%;
+  height: 70%;
+  white:white;
+}
+
+.boxct-product img{
+  width: 60%;
+}
+
+
+#submit-cart{
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+   
+
+
+
+  
+
+
+
+/* chi  tiet */
+
+main .ct-left{
+  width: 40%;
+  height: 60%;
+
+  float: left;
+}
+
+main .ct-left .ct-row {
+  position: relative;
+  width:70%;
+  min-height: 340px;
+ 
+
+  margin: 50px auto;
+}
+
+main .ct-left .ct-row1{
+  width: 14%;
+  height:12%;
+  left: 15%;
+  top: -20%;
+  position: relative;
+  float: left;
+  margin: 10px;
+}
+
+
+main .ct-left .ct-row1 img{
+  width: 100%;
+  height:10%;
+  position: relative;
+}
+
+main .ct-left .ct-row1 img:hover{
+ border: 2px solid black;
+}
+
+
+
+.ct-left .ct-row img{
+  position: absolute;
+  width:100%;
+  height: auto;
+ 
+}
+
+.ct-right{
+width: 60%;
+height: 600px;
+}
+
+.ct-right .gotocart{
+  width: 100%;
+  height: 512px;
+
+}
+
+.ct-right .name-product{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.6vw;
+  position: relative;
+}
+
+.ct-right .detail-product{
+  text-align: center;
+  font-size:1vw;
+  position: relative;
+  top: -2%;
+  text-decoration: none;
+  color: #222222;
+}
+
+.ct-right input[type='submit']{
+  text-align: center;
+  position: relative;
+  left:30%;
+  font-size: 1.5vw;
+  padding:20px;
+  width: 40%;
+  background-color: #000000;
+  color: #FAF9F8;
+  margin-top: 2%;
+}
+
+.ct-right .main-detail{
+  margin-top: 5%;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.ct-right .content-product{
+  width: 50%;
+  padding: 0 40px;  
+  
+}
+
+.main-ct{
+
+  width: 100%;
+  height:800px;
+  margin-bottom: 20px;
+ 
+}
+
+.boxct-product{
+  width: 40%;
+  height: 70%;
+  white:white;
+}
+
+.boxct-product img{
+  width: 60%;
+}
+
+
+
+
+
+   
+
+
+
+  
+.vc-left{
+  width: 70%;
+  
+
+  float:left;
+  
+
+}
+
+.vc-left .cart-main{
+  width: 70%;
+  height: 180px;
+  margin: 20px auto;
+  position: relative;
+  background-color: #ECECEC;
+}
+
+.vc-left .cart-main a span{
+  position: absolute;
+  right: 2%;
+  top: 0px;
+  color: black;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.vc-left .cart-main a span:hover{
+  color: tomato;
+}
+
+.vc-left .cart-main .vc-img img{
+ width: 18%;
+position: absolute;
+top: 5%;
+left: 2%;
+border-radius: 2px;
+}
+
+.vc-left .cart-main .vc-info{
+  position: absolute;
+  left: 22%;
+  top:8%;
+
+  font-size: 1vw;
+  
+  
+}
+
+.vc-left .cart-main .vc-info .vc-name{
+margin-bottom: 8px;
+}
+  
+
+.vc-left .cart-main .vc-soluong{
+  position: absolute;
+  top: 40%;
+  left: 22%;
+
+  font-size: 1vw;
+}
+
+.vc-left .cart-main .vc-soluong input{
+padding: 10px 5px;
+}
+
+.vc-left .cart-main .vc-tongtien{
+  position: absolute;
+  top: 80%;
+  left: 67%;
+  font-size: 1.1vw;
+}
+
+.vc-left .cart-main .vc-trung{
+  position: absolute;
+  top: 26%;
+  left: 64%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vc-right{
+  width: 30%;
+  height: 400px;
+  background-color: #ECECEC;
+  float: left;
+  position: relative;
+  margin: 20px 0;
+}
+
+.vc-right button{
+ 
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 15px;
+    border: none;
+    cursor: pointer;
+    width:90%;
+
+}
+
+.vcr-name{
+  color: gray;
+}
+
+.vcr-left{
+  position: relative;
+  left: 0;
+
+}
+
+.vcr-left ul li,
+.vcr-right ul li
+{
+  list-style-type: none;
+
+  margin-bottom: 10px;
+}
+
+.vcr-right{
+  position: absolute;
+  right: 8%;
+  top: 25%;
+}
+
+
+
+  
